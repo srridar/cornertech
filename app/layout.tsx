@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Cornor Tech",
   description: "Welcome to Cornor Tech.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.jpg",
   },
 };
 
