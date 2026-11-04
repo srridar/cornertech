@@ -66,12 +66,12 @@ export const Navbar: React.FC = () => {
 
     return (
         <motion.header
-            initial={{ y: -100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
+            initial={{  opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.4, ease: 'easeOut' }}
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
                 scrolled
-                    ? 'bg-[#120524]/85 backdrop-blur-md shadow-lg shadow-purple-950/30 py-3'
+                    ? 'bg-[#120524]/90 backdrop-blur-md shadow-lg shadow-purple-950/30 py-3'
                     : 'bg-[#120524] py-5'
             }`}
         >

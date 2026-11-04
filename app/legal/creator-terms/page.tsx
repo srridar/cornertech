@@ -296,25 +296,19 @@ export default function CreatorTermsPage() {
                 </a>
               </div>
               <div>
-                <a href="/license-agreement" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/license-agreement" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View License Agreement</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
               <div>
-                <a href="/creator-terms" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
-                  <span>View Creator Terms</span>
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </div>
-              <div>
-                <a href="/cookies-policy" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/cookies-policy" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View Cookies Policy</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
               <div>
-                <a href="/community-guidelines" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/community-guidelines" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View Community Guidelines</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>

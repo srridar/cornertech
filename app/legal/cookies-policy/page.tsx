@@ -243,31 +243,25 @@ export default function CookiesPolicyPage() {
             <div className="space-y-2.5 text-left bg-gradient-to-b from-[#1c0a36]/60 to-[#0b0217]/60 border border-purple-900/20 rounded-2xl p-5">
               <span className="text-[11px] font-mono tracking-wider uppercase text-white font-bold block mb-2">Other Legal Pages</span>
               <div>
-                <a href="/privacy" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/privacy" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View Privacy Policy</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
               <div>
-                <a href="/license-agreement" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/license-agreement" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View License Agreement</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
               <div>
-                <a href="/creator-terms" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/creator-terms" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View Creator Terms</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
               <div>
-                <a href="/cookies-policy" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
-                  <span>View Cookies Policy</span>
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </div>
-              <div>
-                <a href="/community-guidelines" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
+                <a href="/legal/community-guidelines" className="inline-flex items-center gap-1.5 text-xs text-purple-300 hover:text-amber-400 transition-colors font-medium">
                   <span>View Community Guidelines</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
